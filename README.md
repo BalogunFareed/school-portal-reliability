@@ -1,42 +1,26 @@
 # School Portal Reliability Engineering
 
-## Project Overview
-
-This project investigates the reliability and performance of a fictional
-school results portal under simulated user traffic.
-
-We will deploy the application, establish a performance baseline,
-monitor its behavior, investigate bottlenecks, and implement
-evidence-based improvements.
-
-## Objectives
-
-- Build and deploy a simple school results portal.
-- Package the application using Docker.
-- Provision infrastructure using Terraform.
-- Simulate user traffic and measure performance.
-- Monitor application and infrastructure behavior.
-- Investigate performance bottlenecks using evidence.
-- Implement and test appropriate improvements.
-- Document findings and compare results before and after changes.
-
-## Technology Stack
-
-- Linux
-- Python and Flask
-- Docker
-- AWS
-- Terraform
-- Git and GitHub
-- k6
-- Amazon CloudWatch
-
 ## Project Status
 
-Initial setup.
+### Completed
 
-## Important Note
+- Initialized the Git repository.
+- Created the Python virtual environment.
+- Built a basic Flask application.
+- Created the student results page.
+- Implemented student ID submission and lookup.
+- Tested a successful lookup and an unknown student ID.
+- Configured Git to ignore the virtual environment and generated files.
 
-This is a fictional school portal created for learning and testing.
-Load testing will be performed only against infrastructure we own
-or have explicit permission to test.
+### In Progress
+
+- Completing and verifying the local application.
+
+### Not Yet Completed
+
+- Docker containerization.
+- AWS deployment.
+- Terraform infrastructure automation.
+- Load testing and baseline measurements.
+- Monitoring and root-cause investigation.
+- Reliability improvements and performance comparison.
