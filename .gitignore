@@ -1,9 +1,38 @@
 # Python virtual environment
+
 .venv/
 
 # Python cache files
-__pycache__/
+
+*pycache*/
 *.py[cod]
 
 # Environment variables and secrets
+
 .env
+.env.*
+
+# Terraform working directory
+
+**/.terraform/*
+
+# Terraform state files
+
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Terraform crash logs
+
+crash.log
+crash.*.log
+
+# Docker image archives
+
+*.tar
+*.tar.gz
+
+# OS files
+
+.DS_Store
+Thumbs.db
