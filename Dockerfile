@@ -10,4 +10,4 @@ COPY app/ ./app/
 
 EXPOSE 8080
 
-CMD ["python", "-m", "flask", "--app", "app.main", "run", "--host=0.0.0.0", "--port=8080"]
+CMD ["gunicorn", "--workers", "2", "--bind", "0.0.0.0:8080", "app.main:app"]
